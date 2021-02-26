@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cskt.historl.mapper.ReferralMapper">
+  <resultMap id="BaseResultMap" type="com.cskt.historl.entity.Referral">
+    <!--@mbg.generated-->
+    <!--@Table referral-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="doctor_id" jdbcType="INTEGER" property="doctorId" />
+    <result column="department_id" jdbcType="INTEGER" property="departmentId" />
+    <result column="appointment_time" jdbcType="TIMESTAMP" property="appointmentTime" />
+    <result column="sufferer_details_id" jdbcType="INTEGER" property="suffererDetailsId" />
+    <result column="remarks" jdbcType="VARCHAR" property="remarks" />
+    <result column="Outpatient_type" jdbcType="INTEGER" property="outpatientType" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+    <result column="status_remark" jdbcType="VARCHAR" property="statusRemark" />
+    <result column="chief_complaint" jdbcType="VARCHAR" property="chiefComplaint" />
+    <result column="physical_examination" jdbcType="VARCHAR" property="physicalExamination" />
+    <result column="problem_to_be_solved" jdbcType="VARCHAR" property="problemToBeSolved" />
+    <result column="sort" jdbcType="INTEGER" property="sort" />
+    <result column="operator" jdbcType="VARCHAR" property="operator" />
+    <result column="group_doctor" jdbcType="VARCHAR" property="groupDoctor" />
+    <result column="group_time" jdbcType="TIMESTAMP" property="groupTime" />
+    <result column="group_remark" jdbcType="VARCHAR" property="groupRemark" />
+    <result column="refuse_time" jdbcType="TIMESTAMP" property="refuseTime" />
+    <result column="complete_time" jdbcType="TIMESTAMP" property="completeTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, doctor_id, department_id, appointment_time, sufferer_details_id, remarks, Outpatient_type, 
+    create_time, update_time, `state`, status_remark, chief_complaint, physical_examination, 
+    problem_to_be_solved, sort, `operator`, group_doctor, group_time, group_remark, refuse_time, 
+    complete_time
+  </sql>
+
+  <select id="findCheckNum" resultType="java.lang.Integer">
+     SELECT COUNT(1) FROM referral WHERE state=1
+</select>
+
+
+<select id="findZCount" resultType="java.lang.Integer">
+select COUNT(1)
+from referral
+where YEAR(appointment_time)=YEAR(NOW())
+AND MONTH(appointment_time)=MONTH(NOW())
+AND DAY(appointment_time)=DAY(NOW())
+AND doctor_id=#{doctorId}
+</select>
+<select id="findZList" resultType="com.cskt.historl.vo.GroupList">
+ SELECT referral.id,sufferer_name,sufferer_age,sufferer_sex,appointment_time,state,department_name
+ FROM referral
+ LEFT JOIN sufferer_details ON sufferer_details.id=referral.sufferer_details_id
+ LEFT JOIN department_dictionary ON department_dictionary.id=referral.department_id
+ where  doctor_id=#{doctorId}
+ <if test="sufferName!=null">
+  AND sufferer_name LIKE CONCAT('%',#{sufferName},'%')
+</if>
+ ORDER BY appointment_time DESC
+</select>
+<select id="findZDanInfo" resultType="com.cskt.historl.vo.ApplyRefer">
+ SELECT referral.id,referral.hospital_id,state,Outpatient_type,department_name,group_doctor,status_remark,group_remark,hospital_dictionary.`name`,appointment_time,remarks,sufferer_name,sufferer_phone,sufferer_age,sufferer_sex,sufferer_height,sufferer_weight,chief_complaint,physical_examination,problem_to_be_solved,complete_time,refuse_time,referral.update_time
+ FROM referral
+ LEFT JOIN sufferer_details ON sufferer_details.id=referral.sufferer_details_id
+ LEFT JOIN department_dictionary ON department_dictionary.id=referral.department_id
+ LEFT JOIN hospital_dictionary ON hospital_dictionary.id=referral.hospital_id
+ LEFT JOIN referral_type ON referral_type.id=referral.Outpatient_type
+ WHERE referral.id=#{doctorId}
+</select>
+
+</mapper>

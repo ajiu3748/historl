@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cskt.historl.mapper.HospitalDictionaryMapper">
+  <resultMap id="BaseResultMap" type="com.cskt.historl.entity.HospitalDictionary">
+    <!--@mbg.generated-->
+    <!--@Table hospital_dictionary-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="hospital_id" jdbcType="INTEGER" property="hospitalId" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, hospital_id, `name`, create_time
+  </sql>
+</mapper>

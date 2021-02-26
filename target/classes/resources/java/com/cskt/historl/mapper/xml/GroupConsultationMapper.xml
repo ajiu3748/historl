@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cskt.historl.mapper.GroupConsultationMapper">
+  <resultMap id="BaseResultMap" type="com.cskt.historl.entity.GroupConsultation">
+    <!--@mbg.generated-->
+    <!--@Table group_consultation-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="doctor_id" jdbcType="INTEGER" property="doctorId" />
+    <result column="department_id" jdbcType="INTEGER" property="departmentId" />
+    <result column="hospital_id" jdbcType="INTEGER" property="hospitalId" />
+    <result column="appointment_time" jdbcType="TIMESTAMP" property="appointmentTime" />
+    <result column="group_consultation_app" jdbcType="VARCHAR" property="groupConsultationApp" />
+    <result column="sufferer_details_id" jdbcType="INTEGER" property="suffererDetailsId" />
+    <result column="remarks" jdbcType="VARCHAR" property="remarks" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+    <result column="status_remark" jdbcType="VARCHAR" property="statusRemark" />
+    <result column="chief_complaint" jdbcType="VARCHAR" property="chiefComplaint" />
+    <result column="physical_examination" jdbcType="VARCHAR" property="physicalExamination" />
+    <result column="problem_to_be_solved" jdbcType="VARCHAR" property="problemToBeSolved" />
+    <result column="sort" jdbcType="INTEGER" property="sort" />
+    <result column="operator" jdbcType="VARCHAR" property="operator" />
+    <result column="group_doctor" jdbcType="VARCHAR" property="groupDoctor" />
+    <result column="group_doctor_mobile" jdbcType="VARCHAR" property="groupDoctorMobile" />
+    <result column="group_time" jdbcType="TIMESTAMP" property="groupTime" />
+    <result column="group_remark" jdbcType="VARCHAR" property="groupRemark" />
+    <result column="refuse_time" jdbcType="TIMESTAMP" property="refuseTime" />
+    <result column="complete_time" jdbcType="TIMESTAMP" property="completeTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, doctor_id, department_id,hospital_id,appointment_time, group_consultation_app, sufferer_details_id,
+    remarks, create_time, update_time, `state`, status_remark, chief_complaint, physical_examination, 
+    problem_to_be_solved, sort, `operator`, group_doctor, group_doctor_mobile, group_time, 
+    group_remark, refuse_time, complete_time
+  </sql>
+
+  <select id="findWaitingNum" resultType="java.lang.Integer">
+  SELECT COUNT(1) FROM group_consultation WHERE state=1
+</select>
+<select id="findHCount" resultType="java.lang.Integer">
+select COUNT(1)
+from group_consultation
+where YEAR(appointment_time)=YEAR(NOW())
+AND MONTH(appointment_time)=MONTH(NOW())
+AND DAY(appointment_time)=DAY(NOW())
+AND doctor_id=#{doctorId}
+</select>
+<select id="findHList" resultType="com.cskt.historl.vo.GroupList">
+ SELECT group_consultation.id,group_consultation.group_doctor_mobile,sufferer_name,sufferer_age,sufferer_sex,appointment_time,state,department_name
+ FROM group_consultation
+ LEFT JOIN sufferer_details ON sufferer_details.id=group_consultation.sufferer_details_id
+ LEFT JOIN department_dictionary ON department_dictionary.id=group_consultation.department_id
+ where  doctor_id=#{doctorId}
+ <if test="sufferName != null and sufferName != ''">
+  AND sufferer_name LIKE CONCAT('%',#{sufferName},'%')
+</if>
+ ORDER BY appointment_time DESC
+</select>
+<select id="findHDanInfo" resultType="com.cskt.historl.vo.ApplyGroupConsultation">
+ SELECT group_consultation.id,group_consultation.hospital_id,state,department_name,group_doctor,group_doctor_mobile,status_remark,group_remark,`name`,appointment_time,group_consultation_app,remarks,sufferer_name,sufferer_phone,sufferer_age,sufferer_sex,sufferer_height,sufferer_weight,chief_complaint,physical_examination,problem_to_be_solved,complete_time,refuse_time,group_consultation.update_time
+ FROM group_consultation
+ LEFT JOIN sufferer_details ON sufferer_details.id=group_consultation.sufferer_details_id
+ LEFT JOIN department_dictionary ON department_dictionary.id=group_consultation.department_id
+ LEFT JOIN hospital_dictionary ON hospital_dictionary.id=group_consultation.hospital_id
+ WHERE group_consultation.id=#{doctorId}
+</select>
+<select id="findUserNameInfo" resultType="com.cskt.historl.vo.UserName">
+ SELECT `name`,department_name,user_name,user_phone,user_id
+ FROM `user`
+ LEFT JOIN hospital_dictionary ON hospital_dictionary.id=`user`.hospital_id
+ LEFT JOIN department_dictionary ON department_dictionary.id=`user`.department_id
+ WHERE `user`.user_phone=#{phone}
+</select>
+</mapper>

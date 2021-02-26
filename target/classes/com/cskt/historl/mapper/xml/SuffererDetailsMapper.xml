@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cskt.historl.mapper.SuffererDetailsMapper">
+  <resultMap id="BaseResultMap" type="com.cskt.historl.entity.SuffererDetails">
+    <!--@mbg.generated-->
+    <!--@Table sufferer_details-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="sufferer_name" jdbcType="VARCHAR" property="suffererName" />
+    <result column="sufferer_phone" jdbcType="INTEGER" property="suffererPhone" />
+    <result column="sufferer_age" jdbcType="INTEGER" property="suffererAge" />
+    <result column="sufferer_sex" jdbcType="INTEGER" property="suffererSex" />
+    <result column="sufferer_height" jdbcType="INTEGER" property="suffererHeight" />
+    <result column="sufferer_weight" jdbcType="INTEGER" property="suffererWeight" />
+    <result column="upddate_time" jdbcType="TIMESTAMP" property="upddateTime" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="sort" jdbcType="INTEGER" property="sort" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, sufferer_name, sufferer_phone, sufferer_age, sufferer_sex, sufferer_height, sufferer_weight, 
+    upddate_time, create_time, sort
+  </sql>
+  <select id="findToGroupId" resultMap="BaseResultMap">
+  SELECT <include refid="Base_Column_List"></include>
+ FROM sufferer_details
+ LEFT JOIN group_consultation ON group_consultation.sufferer_details_id=sufferer_details.id
+ WHERE group_consultation.id=#{id}
+</select>
+</mapper>
