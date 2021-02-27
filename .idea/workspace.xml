@@ -1,375 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e932ed66-3817-4a65-bff3-1023fd76c91d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8cbfe611-0e7a-4f51-9154-d3c834bb834c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8cbfe611-0e7a-4f51-9154-d3c834bb834c/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/historl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/HistorlApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/config/AutoLoginENUMUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/config/AutoLoginModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/config/HttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/constants/ResultCodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/controller/ConsultationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/controller/LoginVueController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/controller/ReferralController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/entity/ChattingRecords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/entity/DepartmentDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/entity/GroupConsultation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/entity/HospitalDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/entity/LoginLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/entity/PositionalDict.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/entity/Referral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/entity/ReferralType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/entity/SuffererDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/entity/SysDict.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/entity/SysDictItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/exception/KetaiException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/ChattingRecordsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/DepartmentDictionaryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/GroupConsultationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/HospitalDictionaryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/LoginLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/PositionalDictMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/ReferralMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/ReferralTypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/SuffererDetailsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/SysDictItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/SysDictMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/xml/ChattingRecordsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/xml/DepartmentDictionaryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/xml/GroupConsultationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/xml/HospitalDictionaryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/xml/LoginLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/xml/PositionalDictMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/xml/ReferralMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/xml/ReferralTypeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/xml/SuffererDetailsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/xml/SysDictItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/xml/SysDictMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/mapper/xml/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/ChattingRecordsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/DepartmentDictionaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/GroupConsultationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/HospitalDictionaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/LoginLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/PositionalDictService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/ReferralService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/ReferralTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/SuffererDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/SysDictItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/SysDictService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/impl/ChattingRecordsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/impl/DepartmentDictionaryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/impl/GroupConsultationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/impl/HospitalDictionaryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/impl/LoginLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/impl/PositionalDictServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/impl/ReferralServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/impl/ReferralTypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/impl/SuffererDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/impl/SysDictItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/impl/SysDictServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/util/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/vo/ApplyGroupConsultation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/vo/ApplyHName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/vo/ApplyRefer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/vo/GroupList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/vo/Myself.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cskt/historl/vo/UserName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cskt/historl/HistorlApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/HistorlApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/config/AutoLoginENUMUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/config/AutoLoginModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/config/CorsConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/config/HttpUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/config/SwaggerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/constants/ResultCodeEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/controller/ConsultationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/controller/IndexController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/controller/LoginVueController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/controller/ReferralController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/entity/ChattingRecords.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/entity/DepartmentDictionary.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/entity/GroupConsultation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/entity/HospitalDictionary.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/entity/LoginLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/entity/PositionalDict.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/entity/Referral.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/entity/ReferralType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/entity/SuffererDetails.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/entity/SysDict.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/entity/SysDictItem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/exception/KetaiException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/ChattingRecordsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/DepartmentDictionaryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/GroupConsultationMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/HospitalDictionaryMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/LoginLogMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/PositionalDictMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/ReferralMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/ReferralTypeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/SuffererDetailsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/SysDictItemMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/SysDictMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/xml/ChattingRecordsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/xml/DepartmentDictionaryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/xml/GroupConsultationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/xml/HospitalDictionaryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/xml/LoginLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/xml/PositionalDictMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/xml/ReferralMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/xml/ReferralTypeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/xml/SuffererDetailsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/xml/SysDictItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/xml/SysDictMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/mapper/xml/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/ChattingRecordsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/DepartmentDictionaryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/GroupConsultationService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/HospitalDictionaryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/LoginLogService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/PositionalDictService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/ReferralService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/ReferralTypeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/SuffererDetailsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/SysDictItemService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/SysDictService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/impl/ChattingRecordsServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/impl/DepartmentDictionaryServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/impl/GroupConsultationServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/impl/HospitalDictionaryServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/impl/LoginLogServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/impl/PositionalDictServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/impl/ReferralServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/impl/ReferralTypeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/impl/SuffererDetailsServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/impl/SysDictItemServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/impl/SysDictServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/util/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/vo/ApplyGroupConsultation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/vo/ApplyHName.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/vo/ApplyRefer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/vo/GroupList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/vo/Myself.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cskt/historl/vo/UserName.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/HistorlApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/config/AutoLoginENUMUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/config/AutoLoginModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/config/HttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/constants/ResultCodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/controller/ConsultationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/controller/LoginVueController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/controller/ReferralController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/entity/ChattingRecords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/entity/DepartmentDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/entity/GroupConsultation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/entity/HospitalDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/entity/LoginLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/entity/PositionalDict.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/entity/Referral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/entity/ReferralType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/entity/SuffererDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/entity/SysDict.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/entity/SysDictItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/exception/KetaiException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/ChattingRecordsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/DepartmentDictionaryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/GroupConsultationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/HospitalDictionaryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/LoginLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/PositionalDictMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/ReferralMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/ReferralTypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/SuffererDetailsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/SysDictItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/SysDictMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/xml/ChattingRecordsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/xml/DepartmentDictionaryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/xml/GroupConsultationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/xml/HospitalDictionaryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/xml/LoginLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/xml/PositionalDictMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/xml/ReferralMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/xml/ReferralTypeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/xml/SuffererDetailsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/xml/SysDictItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/xml/SysDictMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/mapper/xml/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/ChattingRecordsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/DepartmentDictionaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/GroupConsultationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/HospitalDictionaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/LoginLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/PositionalDictService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/ReferralService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/ReferralTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/SuffererDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/SysDictItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/SysDictService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/impl/ChattingRecordsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/impl/DepartmentDictionaryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/impl/GroupConsultationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/impl/HospitalDictionaryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/impl/LoginLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/impl/PositionalDictServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/impl/ReferralServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/impl/ReferralTypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/impl/SuffererDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/impl/SysDictItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/impl/SysDictServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/util/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/vo/ApplyGroupConsultation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/vo/ApplyHName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/vo/ApplyRefer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/vo/GroupList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/vo/Myself.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/java/com/cskt/historl/vo/UserName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cskt/historl/HistorlApplicationTests.class" afterDir="false" />
+    <list default="true" id="e932ed66-3817-4a65-bff3-1023fd76c91d" name="Default Changelist" comment="项目（1）">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -454,7 +88,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -508,14 +142,31 @@
       <workItem from="1614231233210" duration="7168000" />
       <workItem from="1614246657075" duration="4373000" />
       <workItem from="1614301319895" duration="8053000" />
-      <workItem from="1614316894052" duration="7272000" />
+      <workItem from="1614316894052" duration="8664000" />
+      <workItem from="1614390050169" duration="2808000" />
     </task>
+    <task id="LOCAL-00001" summary="项目（1）">
+      <created>1614328540727</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614328540727</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目（1）" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目（1）" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="235" y="70" key="#Deployment" timestamp="1614392755112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="235" y="70" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1614392755112" />
     <state x="392" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614045884479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -524,42 +175,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1614220639507" />
-    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1614328372487">
+    <state x="246" y="1" key="CommitChangelistDialog2" timestamp="1614392769558">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614328372487" />
-    <state width="1493" height="143" key="GridCell.Tab.0.bottom" timestamp="1614326153664">
+    <state x="246" y="1" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1614392769558" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1614393164382">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614326153664" />
-    <state width="1493" height="143" key="GridCell.Tab.0.center" timestamp="1614326153664">
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614393164382" />
+    <state x="644" y="303" width="272" height="253" key="Github.ShareDialog" timestamp="1614392192562">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614326153664" />
-    <state width="1493" height="143" key="GridCell.Tab.0.left" timestamp="1614326153664">
+    <state x="644" y="303" width="272" height="253" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1614392192562" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1614329989271">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614326153664" />
-    <state width="1493" height="143" key="GridCell.Tab.0.right" timestamp="1614326153664">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614329989271" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1614329989270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614326153664" />
-    <state width="1493" height="143" key="GridCell.Tab.1.bottom" timestamp="1614326153665">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614329989270" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1614329989270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614326153665" />
-    <state width="1493" height="143" key="GridCell.Tab.1.center" timestamp="1614326153665">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614329989270" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1614329989270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1614326153665" />
-    <state width="1493" height="143" key="GridCell.Tab.1.left" timestamp="1614326153664">
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614329989270" />
+    <state width="1493" height="223" key="GridCell.Tab.1.bottom" timestamp="1614329989271">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1614326153664" />
-    <state width="1493" height="143" key="GridCell.Tab.1.right" timestamp="1614326153665">
+    <state width="1493" height="223" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614329989271" />
+    <state width="1493" height="223" key="GridCell.Tab.1.center" timestamp="1614329989271">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="143" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1614326153665" />
+    <state width="1493" height="223" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1614329989271" />
+    <state width="1493" height="223" key="GridCell.Tab.1.left" timestamp="1614329989271">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1614329989271" />
+    <state width="1493" height="223" key="GridCell.Tab.1.right" timestamp="1614329989271">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1614329989271" />
     <state width="1493" height="278" key="GridCell.Tab.2.bottom" timestamp="1614227373282">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -580,10 +239,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1613802367020" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1613817302157">
+    <state x="270" y="54" key="SettingsEditor" timestamp="1614392816343">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1613817302157" />
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1614392816343" />
     <state x="470" y="39" key="refactoring.ChangeSignatureDialog" timestamp="1614215035321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
